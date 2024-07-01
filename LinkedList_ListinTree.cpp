@@ -152,3 +152,22 @@ int main() {
     PrintLevel(T, y);
     return 0;
 }
+
+
+/*
+Cho một số những viên đá được ký hiệu bằng ký tự chữ cái và trọng lượng của chúng.
+
+Lần lượt thêm những viên đá này vào cây nhị phân tìm kiếm với key của mỗi node là ký hiệu của viên đá đó.
+
+Cho 1 viên đá có ký hiệu x và trọng lượng m (số nguyên). Hãy cho biết viên đá đó ở độ cao bao nhiêu của cây và là viên đá có ký hiệu x xuất hiện ở lần thứ mấy.
+
+INPUT
+
+N dòng đầu tiên là thông tin của những viên đá, lần lượt là ký hiệu và trọng lượng của viên đá đó. Kết thúc bằng -1.
+
+Dòng cuối cùng là thông tin của viên đá cần tìm độ cao và thứ tự
+
+OUTPUT
+
+Xuất trên một dòng độ cao và lượt xuất hiện của viên đá cần tìm. Biết độ cao của node gốc là 1, thứ tự đầu tiên của viên đá là 0.
+*/
